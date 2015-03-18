@@ -156,8 +156,42 @@ footer p {
 @font-face{ 
 	font-family: 'MyWebFont';
 	src: url('WebFont.eot');
-	src: url('WebFont.eot?#iefix') format('embedded-opentype'),
+    src: url('WebFont.eot?#iefix') format('embedded-opentype'),
 	     url('WebFont.woff') format('woff'),
 	     url('WebFont.ttf') format('truetype'),
 	     url('WebFont.svg#webfont') format('svg');
 }
+@media screen and (max-width: 568px) {
+#pages {
+	display: none;
+
+}
+body {
+	/*background-color: black;*/
+	margin-right: 20px;
+	margin-left: 20px;
+}
+nav {
+	float: left;
+	clear: both;
+	margin-top: 0;
+	padding: none;
+
+}
+.entries {
+	width: 100%;
+}
+nav ul li {
+	margin-top: 20px;
+	padding-right: 18px;
+	padding-left: none;
+	margin-left: none;
+	padding: none;
+
+
+}
+nav ul {
+	padding: none;
+}
+
+	}
